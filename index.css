@@ -1,0 +1,89 @@
+.cursive, .posted {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.testimonial {
+  background-size: cover;
+  text-align: center;
+  padding: 8vh;
+}
+
+.parallax {
+  /* Parallax https://www.w3schools.com/howto/howto_css_parallax.asp */
+  background-image: url(images/img.jpg);
+  background-size: cover;
+  height: 20vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .testimonial {
+    background-attachment: scroll;
+  }
+}
+
+.hover li {
+  transition: transform .4s;
+}
+
+.navbar #main-nav-collapse ul li a {
+  color: black;
+}
+
+.hover li:hover {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  color: #1D976C;
+}
+
+.navbar .container .navbar-brand {
+  color: black;
+}
+
+.body, .header {
+  padding: 100px 50px;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
+
+.navbar, .testimonial {
+  background: #1D976C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar-default .navbar-toggle {
+  border-color: black;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #93F9B9;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+p {
+  padding: 15px;
+}
+
+.contact .list-group-item {
+  display: inline-block;
+}
+
+.contact .list-group-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact .list-group-item a:hover {
+  opacity: 0.7;
+}
