@@ -2,13 +2,13 @@
   "name": "dt-anju-gulati",
   "version": "1.0.0",
   "description": "Simple front-end website.",
-  "main": "anju-gulati.html",
+  "main": "index.html",
+  "dependencies": {
+    "jquery": "1.9.1 - 3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vanshika Gulati",
-  "license": "ISC",
-  "dependencies": {
-    "jquery": "1.9.1 - 3"
-  }
+  "license": "ISC"
 }
