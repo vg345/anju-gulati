@@ -8,14 +8,14 @@
 .testimonial {
   background-size: cover;
   text-align: center;
-  padding: 8vh;
+  padding: 5vh;
 }
 
 .parallax {
   /* Parallax https://www.w3schools.com/howto/howto_css_parallax.asp */
   background-image: url(images/img.jpg);
   background-size: cover;
-  height: 20vh;
+  height: 10vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,7 +46,7 @@
 }
 
 .body, .header {
-  padding: 100px 50px;
+  padding: 50px 50px;
 }
 
 .navbar{
@@ -86,4 +86,8 @@ p {
 
 .contact .list-group-item a:hover {
   opacity: 0.7;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
 }

@@ -4,6 +4,7 @@
   "description": "Simple front-end website.",
   "main": "index.html",
   "dependencies": {
+    "hover.css": "^2.3.2",
     "jquery": "1.9.1 - 3"
   },
   "scripts": {
